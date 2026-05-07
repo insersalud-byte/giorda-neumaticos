@@ -1,0 +1,587 @@
+{
+  "fecha_analisis": "2026-05-07",
+  "analista": "Claude Code — Giorda Neumáticos Research",
+  "negocio_objetivo": {
+    "nombre": "Giorda Neumáticos",
+    "ubicacion": "Córdoba, Argentina",
+    "identidad": "azul + amarillo + perro mascota",
+    "servicios": ["venta de neumáticos", "colocación", "balanceo", "alineación", "tren delantero", "revisión de frenos"],
+    "marcas": ["Sunny", "GT Radial", "Giti", "Wanli", "Champiro", "Maxmiler", "Xbri", "Ovation"],
+    "precios": "ARS — precio base, precio contado (×1.30), cuotas",
+    "turnos": ["colocación de gomas", "revisión tren delantero"],
+    "contacto_principal": "WhatsApp"
+  },
+  "sitios_analizados": [
+    {
+      "id": 1,
+      "nombre": "GA Neumáticos y Servicios",
+      "url": "https://www.ganeumaticos.com.ar",
+      "pais": "Argentina",
+      "acceso": "exitoso",
+      "relevancia": "REFERENTE PRINCIPAL — modelo más completo analizado",
+      "hero": {
+        "headline": "No importa cómo le digas. Siempre es Firestone.",
+        "subtitulo": "Esta es la medida de tus neumáticos",
+        "cta_texto": "TIENDA",
+        "cta_destino": "tienda online"
+      },
+      "navegacion": [
+        "COMPRÁ ONLINE",
+        "Mi Cuenta",
+        "Carrito",
+        "PROMOS BANCARIAS",
+        "NOVEDADES",
+        "NOSOTROS",
+        "TURNOS",
+        "SERVICIOS",
+        "PRESUPUESTOS"
+      ],
+      "secciones_home": [
+        "hero con buscador de medidas",
+        "promociones de servicios (rotación, alineación, balanceo)",
+        "12 productos destacados",
+        "promos bancarias / financiación",
+        "selector por vehículo (marca/modelo/año)",
+        "representantes de atención al cliente con foto",
+        "footer con sucursales"
+      ],
+      "busqueda_neumaticos": {
+        "por_medida": true,
+        "campos_medida": ["Ancho", "Altura", "Diámetro"],
+        "tipo_campos": "dropdowns con múltiples opciones",
+        "por_auto": true,
+        "campos_auto": ["Año", "Marca", "Modelo"],
+        "filtros_adicionales": [],
+        "resultado": "listado filtrado → ficha de producto → WhatsApp o carrito"
+      },
+      "carrito": {
+        "tiene_ecommerce": true,
+        "pasos_checkout": ["seleccionar producto", "agregar al carrito", "datos de envío", "método de pago", "confirmación"],
+        "metodos_pago": ["Galicia", "Supervielle", "ICBC", "Naranja X", "Visa", "Macro", "Santander"],
+        "precio_contado": true,
+        "precio_cuotas": true,
+        "promos_bancarias": true,
+        "seccion_promos_en_menu": true
+      },
+      "turnos": {
+        "tiene_turnos": true,
+        "seccion_dedicada": true,
+        "campos_formulario": ["servicio", "fecha", "hora", "datos personales"],
+        "confirmacion": ["email"]
+      },
+      "servicios": [
+        "rotación de neumáticos",
+        "alineación (autos y camiones)",
+        "balanceo (autos y camiones)",
+        "lubricentro",
+        "centro de camiones",
+        "paquetes con descuento"
+      ],
+      "precios_servicios_visibles": true,
+      "diseno": {
+        "colores_principales": ["blanco (#FFFFFF)", "azul marino / negro (#1a1a1a)", "rojo (#CC0000)"],
+        "tipografia": "sans-serif moderna",
+        "mobile_first": true,
+        "elementos_confianza": [
+          "más de 40 años en el mercado",
+          "SSL badge",
+          "política de devoluciones visible",
+          "sección Compra tranquilo",
+          "chat en vivo con foto de representantes",
+          "múltiples sucursales físicas"
+        ]
+      },
+      "notas": "Modelo más completo: tiene ecommerce real, turnos, promos bancarias en el menú y chat en vivo. El hero usa marca de neumático (Firestone) en lugar del nombre del negocio."
+    },
+    {
+      "id": 2,
+      "nombre": "TU GOMERÍA — by Faldani",
+      "url": "https://www.tugomeria.com.ar",
+      "pais": "Argentina",
+      "acceso": "exitoso",
+      "relevancia": "Alta — triple buscador y ecommerce completo",
+      "hero": {
+        "headline": "(banners promocionales rotativos sin headline fijo)",
+        "subtitulo": "",
+        "cta_texto": "Consultar por WhatsApp",
+        "cta_destino": "WhatsApp directo"
+      },
+      "navegacion": [
+        "ACERCA DE NOSOTROS",
+        "SUCURSALES",
+        "CONTACTANOS",
+        "OFERTAS",
+        "AUTO",
+        "PICK UP",
+        "LOGIN",
+        "¿AYUDA?"
+      ],
+      "secciones_home": [
+        "slider de banners promocionales",
+        "triple buscador (medida / vehículo / marca)",
+        "asesoramiento vía WhatsApp",
+        "propuesta de valor (envío o retiro en sucursal)",
+        "métodos de pago",
+        "ofertas del mes (16 productos)",
+        "destacados (4 productos)",
+        "logos de marcas"
+      ],
+      "busqueda_neumaticos": {
+        "por_medida": true,
+        "campos_medida": ["Ancho", "Perfil", "Rodado"],
+        "tipo_campos": "dropdowns",
+        "por_auto": true,
+        "campos_auto": ["Marca", "Modelo", "Año", "Versión"],
+        "por_marca": true,
+        "filtros_adicionales": ["marca del neumático"],
+        "resultado": "catálogo filtrado"
+      },
+      "carrito": {
+        "tiene_ecommerce": true,
+        "pasos_checkout": ["buscar", "seleccionar", "carrito", "pago"],
+        "metodos_pago": ["efectivo", "transferencia bancaria", "tarjetas (múltiples opciones)"],
+        "precio_contado": true,
+        "precio_cuotas": true,
+        "promos_bancarias": false
+      },
+      "turnos": {
+        "tiene_turnos": false,
+        "observacion": "Solo WhatsApp para asesoramiento"
+      },
+      "servicios": [
+        "asesoramiento vía WhatsApp",
+        "envío a domicilio",
+        "retiro en sucursal"
+      ],
+      "precios_servicios_visibles": false,
+      "diseno": {
+        "colores_principales": ["blanco (#FFFFFF)", "azul (#003087)", "negro (#000000)", "rojo (precios rebajados)"],
+        "tipografia": "sans-serif",
+        "mobile_first": true,
+        "elementos_confianza": [
+          "4 sucursales (Venado Tuerto, Rosario, Río Cuarto, Pergamino)",
+          "logos de marcas reconocidas"
+        ]
+      },
+      "notas": "TRIPLE BUSCADOR es su diferenciador principal. Sin sistema de turnos. Hero sin headline definido es una oportunidad perdida de comunicar propuesta de valor."
+    },
+    {
+      "id": 3,
+      "nombre": "Gomería Online",
+      "url": "https://gomeriaonline.com",
+      "pais": "Argentina",
+      "acceso": "exitoso",
+      "relevancia": "Media — catálogo simple con buena sección de testimonios",
+      "hero": {
+        "headline": "Tu neumático ahora…",
+        "subtitulo": "",
+        "cta_texto": "¡Comprar ahora!",
+        "cta_destino": "tienda"
+      },
+      "navegacion": [
+        "INICIO",
+        "NEUMÁTICOS",
+        "TEMPORALES"
+      ],
+      "secciones_home": [
+        "hero con imagen principal",
+        "super ofertas en efectivo (8 productos)",
+        "nuestros servicios (4 items)",
+        "marcas disponibles (carousel)",
+        "testimonios de clientes",
+        "ubicación y contacto"
+      ],
+      "busqueda_neumaticos": {
+        "por_medida": false,
+        "por_auto": false,
+        "filtros_adicionales": [],
+        "observacion": "Sin buscador parametrizado — solo navegación por categorías"
+      },
+      "carrito": {
+        "tiene_ecommerce": true,
+        "metodos_pago": ["efectivo", "transferencia"],
+        "precio_contado": true,
+        "precio_cuotas": false,
+        "promos_bancarias": false
+      },
+      "turnos": {
+        "tiene_turnos": false,
+        "observacion": "Solo contacto WhatsApp"
+      },
+      "servicios": [
+        "balanceo",
+        "instalación / colocación",
+        "reparación",
+        "recambio de llantas en el acto"
+      ],
+      "precios_servicios_visibles": false,
+      "diseno": {
+        "colores_principales": ["azul corporativo", "blanco (#FFFFFF)", "negro", "naranja (ofertas)"],
+        "tipografia": "sans-serif",
+        "mobile_first": true,
+        "elementos_confianza": [
+          "más de 15 años operando",
+          "logos de marcas reconocidas (Bridgestone, Pirelli, Goodyear)",
+          "testimonios de clientes",
+          "envíos a todo el país",
+          "WhatsApp verificado"
+        ]
+      },
+      "notas": "Menú muy reducido (3 ítems). Sin buscador por medida es un déficit grande. Testimonios y logos de marcas bien implementados."
+    },
+    {
+      "id": 4,
+      "nombre": "Neumáticos Rocca",
+      "url": "https://neumaticosrocca.com.ar",
+      "pais": "Argentina",
+      "acceso": "exitoso",
+      "relevancia": "Alta — ecommerce maduro, categorías por uso, video tutorial de compra",
+      "hero": {
+        "headline": "Neumáticos Rocca | TIENDA ECOMMERCE",
+        "subtitulo": "Ofrecemos cuotas sin interés. Envíos a todo el país. Asesoramiento personalizado. Garantía.",
+        "cta_texto": "Agregar al carrito",
+        "cta_destino": "producto destacado"
+      },
+      "navegacion": [
+        "Todos nuestros productos",
+        "Marcas (23 marcas)",
+        "Usos (Paseo / Camionetas / SUVs / Clásicos / Camiones / Baterías)",
+        "Sucursales",
+        "Presupuesto",
+        "Contacto",
+        "Truck Center",
+        "Novedades / Blog",
+        "Mi cuenta"
+      ],
+      "secciones_home": [
+        "productos destacados",
+        "novedades",
+        "ofertas",
+        "sección Cómo comprar (video tutorial)",
+        "marcas destacadas (logos)"
+      ],
+      "busqueda_neumaticos": {
+        "por_medida": false,
+        "observacion": "Sin buscador por medida. Filtrado por marca y por uso del vehículo",
+        "por_auto": false,
+        "filtros_adicionales": ["marca", "uso del vehículo"]
+      },
+      "carrito": {
+        "tiene_ecommerce": true,
+        "pasos_checkout": ["seleccionar producto", "agregar al carrito", "completar datos", "pago seguro"],
+        "metodos_pago": ["cuotas sin interés (6 cuotas)", "cálculo de envío por código postal"],
+        "precio_contado": false,
+        "precio_cuotas": true,
+        "video_tutorial_compra": true
+      },
+      "turnos": {
+        "tiene_turnos": false,
+        "observacion": "Solo presupuesto vía CRM externo"
+      },
+      "servicios": [
+        "envíos a todo el país",
+        "cuotas sin interés",
+        "retiro en sucursales",
+        "colocación sin cargo (con marca Michelin)",
+        "asesoramiento personalizado",
+        "garantía"
+      ],
+      "precios_servicios_visibles": false,
+      "diseno": {
+        "colores_principales": ["blanco (#FFFFFF)", "azul (#0066CC)", "negro (#000000)", "rojo/naranja (ofertas)"],
+        "tipografia": "sans-serif moderna",
+        "mobile_first": true,
+        "elementos_confianza": [
+          "Solo quedan X en stock (urgencia)",
+          "+20 vendidos (prueba social)",
+          "Es el último (escasez)",
+          "garantía explícita",
+          "marcas internacionales reconocidas",
+          "video tutorial de compra",
+          "envío nacional",
+          "sucursales físicas"
+        ]
+      },
+      "notas": "Categorías por USO del vehículo (no solo por marca) es una idea valiosa. Video tutorial de compra reduce la fricción del primer comprador online. Técnicas de urgencia/escasez bien aplicadas."
+    },
+    {
+      "id": 5,
+      "nombre": "Neumen",
+      "url": "https://neumen.ar",
+      "pais": "Argentina",
+      "acceso": "exitoso",
+      "relevancia": "Alta — distribuidor líder Pirelli, 40 sucursales, 13 servicios, 36 años",
+      "hero": {
+        "headline": "COMPRÁ AHORA Y RETIRÁ DONDE QUIERAS",
+        "subtitulo": "Tenemos 40 sucursales",
+        "cta_texto": "COMPRAR AHORA",
+        "cta_destino": "tienda online"
+      },
+      "navegacion": [
+        "Servicios",
+        "Sucursales",
+        "Neumáticos (Autos / VAN / Camioneta)",
+        "Seguros",
+        "Venta corporativa",
+        "Promociones",
+        "Contacto",
+        "RRHH",
+        "Tienda Online"
+      ],
+      "secciones_home": [
+        "hero con CTA directo",
+        "buscador por medidas (ancho / perfil / rodado)",
+        "selección de marcas (Pirelli, Toyo, JK Tyre)",
+        "más vendidos",
+        "performance centers",
+        "grilla de 13 servicios con iconos",
+        "venta corporativa",
+        "seguros (partners)",
+        "portfolio de marcas"
+      ],
+      "busqueda_neumaticos": {
+        "por_medida": true,
+        "campos_medida": ["Ancho", "Perfil (relación de aspecto)", "Rodado (diámetro de llanta)"],
+        "tipo_campos": "selectores con botón de búsqueda",
+        "por_auto": false,
+        "filtros_adicionales": []
+      },
+      "carrito": {
+        "tiene_ecommerce": true,
+        "metodos_pago": ["cuotas sin interés", "tarjetas (logos en footer)"],
+        "precio_contado": false,
+        "precio_cuotas": true,
+        "descuentos_porcentaje": true
+      },
+      "turnos": {
+        "tiene_turnos": false,
+        "observacion": "Solo WhatsApp — curioso para una empresa tan grande"
+      },
+      "servicios": [
+        "mecánica general",
+        "amortiguadores",
+        "balanceo electrónico",
+        "baterías",
+        "cambio de aceite",
+        "carga para vehículos eléctricos",
+        "diagnóstico computarizado",
+        "frenos",
+        "inflado con nitrógeno",
+        "servicio de neumáticos",
+        "carga de aire acondicionado",
+        "inspecciones técnicas",
+        "vehículo de cortesía"
+      ],
+      "precios_servicios_visibles": false,
+      "diseno": {
+        "colores_principales": ["negro (#000000)", "blanco (#FFFFFF)", "gris (#666666)", "azul (CTAs)", "rojo/naranja (descuentos -40%)"],
+        "tipografia": "bold / impactante, sans-serif",
+        "mobile_first": true,
+        "elementos_confianza": [
+          "40 sucursales",
+          "distribuidor Nro. 1 de Pirelli",
+          "36 años en el mercado",
+          "colocación gratis mencionada",
+          "alerta anti-fraude (números de teléfono falsos)"
+        ]
+      },
+      "notas": "Líder del sector. 13 servicios listados con íconos es el mejor modelo de sección de servicios encontrado. Sin turnos online a pesar de ser la empresa más grande — oportunidad para Giorda."
+    },
+    {
+      "id": 6,
+      "nombre": "Gomería Central",
+      "url": "https://www.gomeriacentral.com",
+      "pais": "Argentina",
+      "acceso": "exitoso",
+      "relevancia": "MUY ALTA — COMPETIDOR DIRECTO (4 sucursales en Córdoba Capital)",
+      "hero": {
+        "headline": "¡Compra hoy tus neumáticos al mejor precio!",
+        "subtitulo": "Ofrecemos los mejores precios del país en neumáticos, cubiertas y accesorios",
+        "cta_texto": "CONSULTAR",
+        "cta_destino": "WhatsApp (+543512293025)"
+      },
+      "navegacion": [
+        "Neumáticos (Auto / Moto / SUV / Camionetas / Utilitarios / Nieve / Deportivo / Drifting)",
+        "Marcas (25+ marcas)",
+        "Outlet",
+        "Accesorios",
+        "Sucursales",
+        "Centro de Ayuda",
+        "Quiénes Somos",
+        "Mi cuenta"
+      ],
+      "secciones_home": [
+        "carrusel de ofertas destacadas",
+        "OFERTAS ÚNICAS (productos en descuento)",
+        "MÁS VENDIDOS",
+        "Accesorios",
+        "Servicios informativos (armado, alineación, frenos, suspensión)"
+      ],
+      "busqueda_neumaticos": {
+        "por_medida": false,
+        "observacion": "Sin buscador paramétrico. CTA directo a WhatsApp para asesoramiento",
+        "por_auto": false,
+        "filtros_adicionales": ["categoría de vehículo (menú)", "marca (menú)"]
+      },
+      "carrito": {
+        "tiene_ecommerce": true,
+        "metodos_pago": ["transferencia / depósito (contado con descuento)", "hasta 6 cuotas sin interés"],
+        "precio_contado": true,
+        "precio_cuotas": true,
+        "rango_precios_ARS": "$85,228 – $520,170",
+        "promos_bancarias": false
+      },
+      "turnos": {
+        "tiene_turnos": false,
+        "observacion": "Todo via WhatsApp — sin formulario de turno online"
+      },
+      "servicios": [
+        "armado y colocación gratis",
+        "alineación y balanceo (máquinas de última generación)",
+        "pastillas y discos de freno",
+        "tren delantero y suspensión"
+      ],
+      "precios_servicios_visibles": false,
+      "diseno": {
+        "colores_principales": ["blanco (#FFFFFF)", "rojo / fuego (emojis)", "azul (links)", "verde (WhatsApp)"],
+        "tipografia": "sans-serif, mayúsculas en hero",
+        "mobile_first": true,
+        "elementos_confianza": [
+          "4 sucursales en Córdoba Capital",
+          "envíos gratis",
+          "Facebook, Instagram, TikTok",
+          "schema JSON-LD implementado para SEO"
+        ]
+      },
+      "notas": "COMPETIDOR DIRECTO en Córdoba. Debilidades explotables: sin buscador por medida, sin turnos online, sin descripción de marcas, héroe genérico. Giorda puede superarlo fácilmente en UX."
+    }
+  ],
+  "sitios_fallidos": [
+    {
+      "url": "https://www.discounttire.com",
+      "motivo": "HTTP 403 — protección anti-scraping"
+    },
+    {
+      "url": "https://www.tiresplus.com",
+      "motivo": "HTTP 403 — protección anti-scraping"
+    },
+    {
+      "url": "https://www.neumaticos-online.com.ar",
+      "motivo": "ECONNREFUSED — servidor caído o dominio inactivo"
+    },
+    {
+      "url": "https://www.pricelider.com.ar/neumaticos",
+      "motivo": "ECONNREFUSED — servidor caído o dominio inactivo"
+    }
+  ],
+  "patrones_comunes": [
+    "WhatsApp es el canal de conversión principal en todos los sitios argentinos",
+    "La mayoría tiene buscador por medida (ancho/perfil/rodado) en la home",
+    "Los precios siempre muestran contado vs cuotas — descuento efectivo visible",
+    "Ninguno en Córdoba tiene sistema de turnos online real y funcional",
+    "Paleta dominante: blanco + azul/negro + rojo para precios/ofertas",
+    "Mobile-first en todos los casos",
+    "Las marcas de neumáticos tienen sección propia o submenu en la navegación",
+    "Trust signals más usados: años de experiencia + cantidad de sucursales"
+  ],
+  "diferenciadores_unicos_encontrados": [
+    "GA Neumáticos: chat en vivo con foto de representantes + TURNOS reales",
+    "TU GOMERÍA: triple buscador (medida + vehículo + marca) en tabs",
+    "Neumáticos Rocca: video tutorial de compra paso a paso + categorías por USO",
+    "Neumen: 13 servicios listados con íconos + vehículo de cortesía",
+    "Neumen: alerta anti-fraude (diferencial de confianza inusual)",
+    "GA Neumáticos: PROMOS BANCARIAS como ítem separado y visible en el menú"
+  ],
+  "oportunidades_para_giorda": [
+    "Turnos online real — NADIE en Córdoba lo tiene bien implementado",
+    "Mascota (perro) integrada en UX — diferenciador único 100% en el sector",
+    "Identidad azul+amarillo — más vibrante que el blanco+azul genérico de todos",
+    "Buscador por medida en el hero — Gomería Central (competidor directo) no lo tiene",
+    "Precio contado con lógica ×1.30 visible y transparente",
+    "Guía visual de cómo leer medidas del neumático — reduce abandono del buscador",
+    "Descripción de marcas propias (Sunny, GT Radial, etc.) — humanizar marcas menos conocidas",
+    "Sección de servicios con precios visibles — nadie en Córdoba los publica"
+  ],
+  "top_10_elementos": [
+    {
+      "posicion": 1,
+      "elemento": "Buscador triple en el hero (medida + vehículo + marca)",
+      "referencia": "TU GOMERÍA (triple), GA Neumáticos y Neumen (por medida)",
+      "descripcion": "Tres tabs en la hero: Tab 1 = ancho/perfil/rodado (dropdowns). Tab 2 = marca de auto / modelo / año. Tab 3 = marca de neumático. Es el elemento de conversión #1.",
+      "prioridad": "CRÍTICA",
+      "diferencia_sobre_competidor_local": "Gomería Central (Córdoba) no tiene buscador por medida"
+    },
+    {
+      "posicion": 2,
+      "elemento": "Sistema de turnos online en 3 pasos",
+      "referencia": "GA Neumáticos (mejor ejemplo), ninguno en Córdoba lo tiene",
+      "descripcion": "Flujo: 1) elegir servicio (colocación / tren delantero) → 2) fecha/hora en calendario → 3) datos del vehículo y contacto → confirmación por WhatsApp. Debe ser el diferenciador principal.",
+      "prioridad": "CRÍTICA",
+      "diferencia_sobre_competidor_local": "NADIE en Córdoba tiene turnos online — ventaja competitiva exclusiva"
+    },
+    {
+      "posicion": 3,
+      "elemento": "Lógica de precios transparente: base → contado → cuotas",
+      "referencia": "GA Neumáticos, Gomería Central, TU GOMERÍA",
+      "descripcion": "En cada producto: precio lista (tachado) → precio contado en efectivo/transferencia → precio en cuotas (X cuotas de $Y sin interés). Más sección PROMOS BANCARIAS en el menú.",
+      "prioridad": "ALTA",
+      "diferencia_sobre_competidor_local": "Honestidad de precios genera confianza — los competidores esconden el precio contado"
+    },
+    {
+      "posicion": 4,
+      "elemento": "WhatsApp flotante contextual con mensaje predefinido",
+      "referencia": "Todos los sitios argentinos analizados",
+      "descripcion": "Botón verde fijo siempre visible. El mensaje cambia según la URL: en catálogo dice 'Hola, consulto por el neumático [medida]', en servicios dice 'Hola, quiero turno para [servicio]'.",
+      "prioridad": "ALTA",
+      "diferencia_sobre_competidor_local": "Automatizar el mensaje pre-relleno reduce la fricción de inicio de conversación"
+    },
+    {
+      "posicion": 5,
+      "elemento": "Cards de servicios con precio visible y CTA a turno",
+      "referencia": "Neumen (13 servicios con íconos), GA Neumáticos (precios de servicios)",
+      "descripcion": "Cada servicio tiene: ícono visual + nombre + descripción corta + precio desde $X + botón 'Sacar turno'. Servicios: colocación, balanceo, alineación, tren delantero, revisión de frenos.",
+      "prioridad": "ALTA",
+      "diferencia_sobre_competidor_local": "Ningún competidor en Córdoba publica precios de servicios"
+    },
+    {
+      "posicion": 6,
+      "elemento": "Barra de confianza: años + reseñas + datos locales",
+      "referencia": "GA Neumáticos (40 años), Gomería Online (15 años), Neumen (36 años)",
+      "descripcion": "Strip horizontal debajo del hero: 'X años en Córdoba' | '★★★★★ Y reseñas Google' | 'Z neumáticos vendidos' | 'Turnos confirmados en minutos'. Con íconos y números reales.",
+      "prioridad": "ALTA",
+      "diferencia_sobre_competidor_local": "Mencionar Córdoba explícitamente diferencia de tiendas nacionales"
+    },
+    {
+      "posicion": 7,
+      "elemento": "Catálogo filtrable con ficha de producto completa",
+      "referencia": "Neumáticos Rocca (mejor ficha), TU GOMERÍA (mejor filtro)",
+      "descripcion": "Cada ficha: foto del neumático + medida completa (185/65 R15 88H) + marca + tipo de uso + precio contado + precio cuotas + badge stock/oferta + botón WhatsApp + botón Comprar. Filtros: marca, medida, precio, tipo.",
+      "prioridad": "ALTA",
+      "diferencia_sobre_competidor_local": "Mostrar specs completas de Sunny/GT Radial genera confianza en marcas menos conocidas"
+    },
+    {
+      "posicion": 8,
+      "elemento": "Mascota (perro) integrada como guía UX",
+      "referencia": "Sin referencia — diferenciador 100% único en el sector",
+      "descripcion": "El perro aparece en: burbuja del buscador ('Decime la medida'), tooltip del WhatsApp, página de error 404 ('Me perdí, volvamos al inicio'), confirmación de turno ('¡Tu turno está confirmado!'). Crea recordabilidad y calidez.",
+      "prioridad": "MEDIA-ALTA",
+      "diferencia_sobre_competidor_local": "Ningún competidor en el sector de neumáticos tiene mascota — diferenciación total"
+    },
+    {
+      "posicion": 9,
+      "elemento": "Guía visual: cómo leer las medidas del neumático",
+      "referencia": "GA Neumáticos menciona el concepto en el hero, ninguno lo desarrolla bien",
+      "descripcion": "Sección o popup educativo: foto del flanco del neumático con flechas anotadas mostrando 185 (ancho mm), 65 (perfil %), R15 (rodado pulgadas), 88H (carga y velocidad). Botón 'Buscar con esta medida'.",
+      "prioridad": "MEDIA",
+      "diferencia_sobre_competidor_local": "Convierte a usuarios que no saben su medida — reduce abandono del buscador"
+    },
+    {
+      "posicion": 10,
+      "elemento": "Sección de marcas con descripción de confianza",
+      "referencia": "Neumáticos Rocca (23 marcas en menú), TU GOMERÍA (logos carousel)",
+      "descripcion": "Grid de marcas propias: logo + nombre + 2 líneas (ej: 'Sunny — neumático chino de exportación con certificación UE, ideal para uso urbano') + botón 'Ver neumáticos'. Para Giorda: 8 marcas con descripción honesta.",
+      "prioridad": "MEDIA",
+      "diferencia_sobre_competidor_local": "Gomería Central tiene 25+ marcas genéricas sin descripción — educación del comprador como ventaja"
+    }
+  ]
+}

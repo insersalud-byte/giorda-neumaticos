@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-white text-giorda-blue-900 antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@layer components {
+  .container-giorda {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-giorda-yellow px-6 py-3 font-semibold text-giorda-blue-900 shadow-giorda-yellow transition hover:bg-giorda-yellow-300 hover:scale-[1.02] active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-giorda-blue;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-giorda-blue px-6 py-3 font-semibold text-white shadow-giorda transition hover:bg-giorda-blue-600 hover:scale-[1.02] active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-giorda-yellow;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border-2 border-giorda-blue px-6 py-3 font-semibold text-giorda-blue transition hover:bg-giorda-blue hover:text-white;
+  }
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-[#25D366] px-6 py-3 font-semibold text-white shadow-md transition hover:bg-[#1fb858] hover:scale-[1.02] active:scale-[0.98];
+  }
+  .input-base {
+    @apply w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-giorda-blue-900 transition focus:border-giorda-blue focus:outline-none focus:ring-2 focus:ring-giorda-blue/20;
+  }
+  .card {
+    @apply rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition hover:shadow-giorda;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { @apply bg-gray-100; }
+::-webkit-scrollbar-thumb { @apply rounded-full bg-giorda-blue-200 hover:bg-giorda-blue-300; }
