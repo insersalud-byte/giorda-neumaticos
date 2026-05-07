@@ -10,14 +10,15 @@ export function Logo({ className, variant = "horizontal" }: { className?: string
     );
   }
   return (
-    <div className={cn("flex items-center gap-2", className)}>
-      <div className="relative h-12 w-12 shrink-0">
-        <Image src="/logo.png" alt="Giorda Neumáticos" fill className="object-contain" priority />
-      </div>
-      <div className="flex flex-col leading-none">
-        <span className="font-display text-xl font-extrabold tracking-tight text-giorda-blue">GIORDA</span>
-        <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-giorda-yellow-500">Neumáticos</span>
-      </div>
+    <div className={cn("relative shrink-0", className)}>
+      <Image
+        src="/logo.png"
+        alt="Giorda Neumáticos"
+        width={56}
+        height={56}
+        className="object-contain"
+        priority
+      />
     </div>
   );
 }

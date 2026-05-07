@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { BuscadorTriple } from "./BuscadorTriple";
-import { DogIcon } from "./Logo";
 import { ShieldCheck, Calendar, CreditCard } from "lucide-react";
 
 export function Hero() {
@@ -16,7 +16,7 @@ export function Hero() {
       <div className="container-giorda relative grid gap-10 py-12 md:grid-cols-2 md:py-20">
         <div className="flex flex-col justify-center">
           <span className="inline-flex w-fit items-center gap-2 rounded-full bg-giorda-yellow px-3 py-1 text-xs font-bold uppercase tracking-wider text-giorda-blue-900">
-            <DogIcon className="h-5 w-5" />
+            <Image src="/logo.png" alt="" width={20} height={20} className="object-contain" />
             Gomería en Córdoba
           </span>
           <h1 className="mt-4 font-display text-4xl font-extrabold leading-[1.1] sm:text-5xl md:text-6xl">

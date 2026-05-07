@@ -6,6 +6,10 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 export const metadata: Metadata = {
   title: "Giorda Neumáticos — Córdoba | Venta, colocación y turnos online",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png"
+  },
   description:
     "Neumáticos y servicios mecánicos en Córdoba. Buscá tu medida, comprá online con Mercado Pago y sacá tu turno en minutos. Marcas: Sunny, GT Radial, Giti, Wanli, Champiro, Maxmiler, Xbri y Ovation.",
   keywords: [
