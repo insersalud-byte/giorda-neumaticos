@@ -5,6 +5,7 @@ import { MarcasSection } from "@/components/MarcasSection";
 import { GuiaMedidas } from "@/components/GuiaMedidas";
 import { DestacadosHome } from "@/components/DestacadosHome";
 import { CTAFinal } from "@/components/CTAFinal";
+import { TrenDelantero } from "@/components/TrenDelantero";
 import { api } from "@/lib/api";
 
 export default async function HomePage() {
@@ -18,6 +19,7 @@ export default async function HomePage() {
       <Hero />
       <TrustBar />
       <DestacadosHome neumaticos={neumaticos} />
+      <TrenDelantero />
       <ServiciosGrid servicios={servicios} />
       <MarcasSection />
       <GuiaMedidas />
