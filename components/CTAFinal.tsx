@@ -1,13 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Calendar, MessageCircle } from "lucide-react";
 import { whatsappLink } from "@/lib/utils";
-import { DogIcon } from "./Logo";
 
 export function CTAFinal() {
   return (
     <section className="bg-giorda-blue py-16 text-white">
       <div className="container-giorda grid gap-8 md:grid-cols-[auto_1fr_auto] md:items-center">
-        <DogIcon className="h-20 w-20 mx-auto md:mx-0" />
+        <Image src="/logo.png" alt="Giorda Neumáticos" width={80} height={80} className="mx-auto md:mx-0 object-contain" />
         <div className="text-center md:text-left">
           <h2 className="font-display text-3xl font-extrabold md:text-4xl">
             ¿Listo para cambiar tus neumáticos?

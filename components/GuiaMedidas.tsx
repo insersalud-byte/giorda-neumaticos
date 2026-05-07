@@ -1,4 +1,4 @@
-import { DogIcon } from "./Logo";
+import Image from "next/image";
 
 const PARTES = [
   { etiqueta: "185", titulo: "Ancho (mm)", desc: "Distancia entre los flancos del neumático medida en milímetros." },
@@ -14,7 +14,7 @@ export function GuiaMedidas() {
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           <div>
             <div className="flex items-center gap-2">
-              <DogIcon className="h-10 w-10" />
+              <Image src="/logo.png" alt="Giorda Neumáticos" width={40} height={40} className="object-contain" />
               <span className="text-xs font-bold uppercase tracking-wider text-giorda-yellow-500">¿No sé mi medida?</span>
             </div>
             <h2 className="mt-2 font-display text-3xl font-extrabold text-giorda-blue md:text-4xl">
