@@ -56,6 +56,7 @@ export interface Servicio {
   nombre: string;
   descripcionCorta: string;
   precioDesde: number;
+  sinCargo?: boolean;
   duracionMinutos: number;
   permiteTurnoOnline: boolean;
 }

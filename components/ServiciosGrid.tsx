@@ -42,8 +42,17 @@ export function ServiciosGrid({ servicios }: { servicios: Servicio[] }) {
 
                 <div className="mt-4 flex items-end justify-between">
                   <div>
-                    <p className="text-xs uppercase tracking-wider text-gray-500">Desde</p>
-                    <p className="font-display text-2xl font-extrabold text-giorda-blue">{formatARS(s.precioDesde)}</p>
+                    {s.sinCargo ? (
+                      <>
+                        <p className="text-xs uppercase tracking-wider text-gray-500">Revisión</p>
+                        <p className="font-display text-2xl font-extrabold text-green-600">SIN CARGO</p>
+                      </>
+                    ) : (
+                      <>
+                        <p className="text-xs uppercase tracking-wider text-gray-500">Desde</p>
+                        <p className="font-display text-2xl font-extrabold text-giorda-blue">{formatARS(s.precioDesde)}</p>
+                      </>
+                    )}
                   </div>
                   {s.permiteTurnoOnline ? (
                     <Link href={`/turnos?servicio=${s.id}`} className="inline-flex items-center gap-1 text-sm font-semibold text-giorda-blue hover:text-giorda-blue-600">

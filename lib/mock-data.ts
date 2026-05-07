@@ -19,7 +19,8 @@ export const MOCK_NEUMATICOS: Neumatico[] = [
     tipoUso: ["auto"],
     precioBase: 92000,
     cuotasSinInteres: 6,
-    stock: 12
+    stock: 12,
+    imagenUrl: "/neumaticos/sunny-np226.jpg"
   }),
   make({
     id: "gtradial-195-65-15",
@@ -32,7 +33,8 @@ export const MOCK_NEUMATICOS: Neumatico[] = [
     tipoUso: ["auto"],
     precioBase: 105000,
     cuotasSinInteres: 6,
-    stock: 8
+    stock: 8,
+    imagenUrl: "/neumaticos/gtradial-eco.png"
   }),
   make({
     id: "giti-205-55-16",
@@ -46,6 +48,7 @@ export const MOCK_NEUMATICOS: Neumatico[] = [
     precioBase: 132000,
     cuotasSinInteres: 6,
     stock: 6,
+    imagenUrl: "/neumaticos/giti-comfort-f22.webp",
     oferta: { activa: true, porcentajeDescuento: 10, precioOferta: 118800 }
   }),
   make({
@@ -59,7 +62,8 @@ export const MOCK_NEUMATICOS: Neumatico[] = [
     tipoUso: ["auto"],
     precioBase: 78000,
     cuotasSinInteres: 6,
-    stock: 15
+    stock: 15,
+    imagenUrl: "/neumaticos/wanli-s1088.jpg"
   }),
   make({
     id: "champiro-225-65-17",
@@ -72,7 +76,8 @@ export const MOCK_NEUMATICOS: Neumatico[] = [
     tipoUso: ["suv", "camioneta"],
     precioBase: 168000,
     cuotasSinInteres: 6,
-    stock: 4
+    stock: 4,
+    imagenUrl: "/neumaticos/champiro-hpy.png"
   }),
   make({
     id: "maxmiler-215-75-16",
@@ -85,7 +90,8 @@ export const MOCK_NEUMATICOS: Neumatico[] = [
     tipoUso: ["camioneta", "utilitario"],
     precioBase: 178000,
     cuotasSinInteres: 6,
-    stock: 7
+    stock: 7,
+    imagenUrl: "/neumaticos/maxmiler-pro.jpg"
   }),
   make({
     id: "xbri-265-65-17",
@@ -99,6 +105,7 @@ export const MOCK_NEUMATICOS: Neumatico[] = [
     precioBase: 215000,
     cuotasSinInteres: 6,
     stock: 5,
+    imagenUrl: "/neumaticos/xbri-forza-ht2.jpg",
     oferta: { activa: true, porcentajeDescuento: 8, precioOferta: 197800 }
   }),
   make({
@@ -112,7 +119,8 @@ export const MOCK_NEUMATICOS: Neumatico[] = [
     tipoUso: ["auto"],
     precioBase: 124000,
     cuotasSinInteres: 6,
-    stock: 9
+    stock: 9,
+    imagenUrl: "/neumaticos/ovation-vi682.png"
   })
 ];
 
@@ -145,7 +153,8 @@ export const MOCK_SERVICIOS: Servicio[] = [
     id: "tren-delantero",
     nombre: "Revisión de tren delantero",
     descripcionCorta: "Diagnóstico completo de rótulas, bieletas, parrillas y bujes.",
-    precioDesde: 12000,
+    precioDesde: 0,
+    sinCargo: true,
     duracionMinutos: 60,
     permiteTurnoOnline: true
   },
@@ -153,9 +162,10 @@ export const MOCK_SERVICIOS: Servicio[] = [
     id: "frenos",
     nombre: "Revisión de frenos",
     descripcionCorta: "Inspección de pastillas, discos, líquido y cilindros.",
-    precioDesde: 9000,
+    precioDesde: 0,
+    sinCargo: true,
     duracionMinutos: 45,
-    permiteTurnoOnline: false
+    permiteTurnoOnline: true
   }
 ];
 

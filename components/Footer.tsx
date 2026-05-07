@@ -28,8 +28,8 @@ export function Footer() {
         <div>
           <h3 className="text-sm font-bold uppercase tracking-wider text-giorda-yellow">Contacto</h3>
           <ul className="mt-4 space-y-3 text-sm">
-            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 shrink-0" /> Córdoba Capital, Argentina</li>
-            <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 shrink-0" /> +54 9 351 229 3025</li>
+            <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 shrink-0" /> Caraffa 2154, Córdoba Capital</li>
+            <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 shrink-0" /> +54 9 351 235 0349</li>
             <li className="flex items-start gap-2"><Mail className="h-4 w-4 mt-0.5 shrink-0" /> contacto@giordaneumaticos.com.ar</li>
             <li className="flex items-start gap-2"><Clock className="h-4 w-4 mt-0.5 shrink-0" /> Lun a Sáb 8:30 a 13:00 / 16:00 a 20:00</li>
           </ul>

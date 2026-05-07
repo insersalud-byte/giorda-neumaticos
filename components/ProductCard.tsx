@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ShoppingCart, MessageCircle } from "lucide-react";
 import type { Neumatico } from "@/lib/types";
 import { formatARS, whatsappLink } from "@/lib/utils";
@@ -13,17 +14,26 @@ export function ProductCard({ n }: { n: Neumatico }) {
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white transition hover:shadow-giorda">
-      <Link href={`/producto/${n.id}`} className="relative block aspect-square bg-gradient-to-br from-giorda-blue-50 to-white">
-        {/* Placeholder visual del neumático */}
-        <svg viewBox="0 0 200 200" className="absolute inset-0 h-full w-full p-6">
-          <circle cx="100" cy="100" r="90" fill="#0B3D91" />
-          <circle cx="100" cy="100" r="70" fill="#1a1a1a" />
-          <circle cx="100" cy="100" r="50" fill="#3a3a3a" />
-          <circle cx="100" cy="100" r="30" fill="#5a5a5a" />
-          {[...Array(16)].map((_, i) => (
-            <rect key={i} x="97" y="22" width="6" height="20" fill="#666" transform={`rotate(${(i * 360) / 16} 100 100)`} />
-          ))}
-        </svg>
+      <Link href={`/producto/${n.id}`} className="relative block aspect-square bg-gradient-to-br from-gray-50 to-white overflow-hidden">
+        {n.imagenUrl ? (
+          <Image
+            src={n.imagenUrl}
+            alt={`${n.marca} ${n.modelo} ${n.medidaTexto}`}
+            fill
+            className="object-contain p-4 transition group-hover:scale-105"
+            sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
+          />
+        ) : (
+          <svg viewBox="0 0 200 200" className="absolute inset-0 h-full w-full p-6">
+            <circle cx="100" cy="100" r="90" fill="#0B3D91" />
+            <circle cx="100" cy="100" r="70" fill="#1a1a1a" />
+            <circle cx="100" cy="100" r="50" fill="#3a3a3a" />
+            <circle cx="100" cy="100" r="30" fill="#5a5a5a" />
+            {[...Array(16)].map((_, i) => (
+              <rect key={i} x="97" y="22" width="6" height="20" fill="#666" transform={`rotate(${(i * 360) / 16} 100 100)`} />
+            ))}
+          </svg>
+        )}
         {n.oferta?.activa && (
           <span className="absolute left-3 top-3 rounded-full bg-giorda-yellow px-3 py-1 text-xs font-bold text-giorda-blue-900">
             -{n.oferta.porcentajeDescuento}%

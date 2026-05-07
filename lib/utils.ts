@@ -32,6 +32,6 @@ export function calcularCuota(precioBase: number, cuotas: number): number {
  * Genera link de WhatsApp con mensaje predefinido.
  */
 export function whatsappLink(mensaje: string): string {
-  const numero = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "5493512293025";
+  const numero = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "5493512350349";
   return `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
 }
